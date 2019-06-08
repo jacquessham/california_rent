@@ -4,7 +4,9 @@ I have a data set on the posts about rent from Craigslist. I am interested on th
 <br>
 
 ## Tools and preparation
-In this project, I will use Python and Plotly for visualization. Luckily, Plotly has a feature to draw borders based on FIPS (Federal Information Processing Standards) defined by the US government. That means if you have the county's FIPS, Plotly could draw the border automatically. 
+In this project, I will use Python and Plotly for visualization. Luckily, Plotly has a feature to draw borders based on FIPS (Federal Information Processing Standards) defined by the US government. That means if you have the county's FIPS, Plotly could draw the border automatically. <br>
+
+The jupyter notebook for EDA could be found [here](EDA.ipynb) 
 
 ## Data Cleansing and Implementation
 The data set consists some posts outside of California. But since that subset accounts less than 1% of the whole data set, I excluded those posts and focus on California. <br>
